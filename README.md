@@ -12,7 +12,7 @@ Task 1:
 			Used as the src parameter for the source element of the HTML audio element
 		unique_id:
 			A unique id from https://uniqueturker.myleott.com/. Used to limit workers to 100 HITs/batch.
-	
+			
 	Outputs:
 		audioType:
 			Same as above
@@ -38,21 +38,21 @@ Task 2:
 		unique_id:
 			Same as in Task 1
 		
-		Outputs:
-			audioType:
-				Same as above
-			audioUrl:
-				Same as above
-			og_assign:
-				AssignmentId from inputs
-			ed_assign:
-				Assignment ID of the assignment. (Same as the AssignmentId output from AMT)
-			OriginalCaption:
-				DescriptionText from inputs.
-			EditedCaption:
-				Annotation from worker.
-			Feedback:
-				Same as in Task 1
+	Outputs:
+		audioType:
+			Same as above
+		audioUrl:
+			Same as above
+		og_assign:
+			AssignmentId from inputs
+		ed_assign:
+			Assignment ID of the assignment. (Same as the AssignmentId output from AMT)
+		OriginalCaption:
+			DescriptionText from inputs.
+		EditedCaption:
+			Annotation from worker.
+		Feedback:
+			Same as in Task 1
 
 Task 3:
 
@@ -68,23 +68,23 @@ Task 3:
 		unique_id:
 			Same as in Task 1 and 2
 		
-		Outputs:
-			audioType:
-				Same as above
-			audioUrl:
-				Same as above
-			captions:
-				Same as above
-			fluency_scoreX:
-				Score for fluency for caption X, annotated by the worker
-			accuracy_scoreX:
-				Score for accuracy for caption X, annotated by the worker
-			fluency_scores:
-				Fluency score annotations for captions separated by "|"
-			accuracy_scores:
-				Accuracy score annotations for captions separated by "|".
-			Feedback:
-				Same as in Task 1 and 2
+	Outputs:
+		audioType:
+			Same as above
+		audioUrl:
+			Same as above
+		captions:
+			Same as above
+		fluency_scoreX:
+			Score for fluency for caption X, annotated by the worker
+		accuracy_scoreX:
+			Score for accuracy for caption X, annotated by the worker
+		fluency_scores:
+			Fluency score annotations for captions separated by "|"
+		accuracy_scores:
+			Accuracy score annotations for captions separated by "|".
+		Feedback:
+			Same as in Task 1 and 2
 
 
 
