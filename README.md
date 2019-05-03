@@ -3,6 +3,7 @@ The HTML in the files is copied into the Design Layout-tab when editing the HIT 
 Inputs and outputs for each task (in addition to the general outputs from AMT, e.g. HITId and AssignmentId) is as follows:
 
 Task 1:
+
 	Inputs:
 		audioType:
 			String such as "audio/wav" describing the audio type. Used as the type parameter for the source element of the HTML audio element.
@@ -24,6 +25,7 @@ Task 1:
 		
 
 Task 2:
+
 	Inputs:
 		DescriptionText:
 			Audio caption annotation from the previous task
@@ -53,6 +55,7 @@ Task 2:
 				Same as in Task 1
 
 Task 3:
+
 	Inputs:
 		captions:
 			Annotations from previous tasks for the audio of this HIT. Captions are separated by "|".
